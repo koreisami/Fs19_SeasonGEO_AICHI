@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<economy>
+    <annotation>Copyright (c) Realismus Modding, 2018</annotation>
+
+    <ai workdayStart="6" workdayEnd="18" workdayPay="1650" overtimePay="2475" />
+
+    <!-- Factors for every period on top of the existing vanilla prices -->
+    <repricing>
+        <animals>
+            <type name="HORSE">
+                <factors shift="1">
+                    <factor period="11">0.92</factor>
+                    <factor period="12">0.88</factor>
+                    <factor period="1" >0.98</factor>
+                    <factor period="2" >1.05</factor>
+                    <factor period="3" >1.18</factor>
+                    <factor period="4" >1.21</factor>
+                    <factor period="5" >1.12</factor>
+                    <factor period="6" >0.99</factor>
+                    <factor period="7" >0.93</factor>
+                    <factor period="8" >0.92</factor>
+                    <factor period="9" >0.92</factor>
+                    <factor period="10">0.92</factor>
+                </factors>
+            </type>
+        </animals>
+        <fillTypes>
+            <type name="RYE">
+                <factors shift="1">
+                    <factor period="11">1.21</factor>
+                    <factor period="12">1.08</factor>
+                    <factor period="1" >1.00</factor>
+                    <factor period="2" >1.07</factor>
+                    <factor period="3" >0.99</factor>
+                    <factor period="4" >0.94</factor>
+                    <factor period="5" >0.85</factor>
+                    <factor period="6" >0.81</factor>
+                    <factor period="7" >0.86</factor>
+                    <factor period="8" >0.99</factor>
+                    <factor period="9" >1.08</factor>
+                    <factor period="10">1.13</factor>
+                </factors>
+            </type>
+            <type name="TRITICALE">
+                <factors shift="1">
+                    <factor period="11">1.21</factor>
+                    <factor period="12">1.08</factor>
+                    <factor period="1" >1.00</factor>
+                    <factor period="2" >1.07</factor>
+                    <factor period="3" >0.99</factor>
+                    <factor period="4" >0.94</factor>
+                    <factor period="5" >0.85</factor>
+                    <factor period="6" >0.81</factor>
+                    <factor period="7" >0.86</factor>
+                    <factor period="8" >0.99</factor>
+                    <factor period="9" >1.08</factor>
+                    <factor period="10">1.13</factor>
+               </factors>
+            </type>
+        </fillTypes>
+     </repricing>
+</economy>

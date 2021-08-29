@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<weather>
+    <annotation>Copyright (c) Realismus Modding, 2019</annotation>
+
+    <startValues>
+        <soilTemp>9</soilTemp>
+        <highAirTemp>14</highAirTemp>
+        <snowDepth>0</snowDepth>
+    </startValues>
+	<temperature>
+        <dailyMaximum>
+            <value period="11">9.9</value> 
+            <value period="12">10.9</value> 
+            <value period="1">14.4</value>  
+            <value period="2">19.5</value> 
+            <value period="3">23.9</value> 
+            <value period="4">26.6</value> 
+            <value period="5">30.5</value> 
+            <value period="6">32.3</value> 
+            <value period="7">28.8</value> 
+            <value period="8">23.4</value> 
+            <value period="9">17.9</value> 
+            <value period="10">12.4</value> 
+        </dailyMaximum>
+    </temperature>
+    <clouds>
+        <probability>
+            <value period="11">0.46</value>
+            <value period="12">0.54</value>
+            <value period="1">0.52</value>
+            <value period="2">0.57</value>
+            <value period="3">0.60</value>
+            <value period="4">0.79</value>
+            <value period="5">0.69</value>
+            <value period="6">0.51</value>
+            <value period="7">0.65</value>
+            <value period="8">0.59</value>
+            <value period="9">0.54</value>
+            <value period="10">0.44</value>
+        </probability>
+    </clouds>
+    <rain>
+        <probability>
+            <value period="11">0.15</value>
+            <value period="12">0.18</value>
+            <value period="1">0.28</value>
+            <value period="2">0.29</value>
+            <value period="3">0.32</value>
+            <value period="4">0.38</value>
+            <value period="5">0.33</value>
+            <value period="6">0.24</value>
+            <value period="7">0.32</value>
+            <value period="8">0.35</value>
+            <value period="9">0.24</value>
+            <value period="10">0.26</value>
+        </probability>
+        <rainfall>
+            <value period="11">58</value>
+            <value period="12">67</value>			
+            <value period="1">128</value>
+            <value period="2">139</value>
+            <value period="3">160</value>
+            <value period="4">193</value>
+            <value period="5">193</value>
+            <value period="6">124</value>
+            <value period="7">230</value>
+            <value period="8">187</value>
+            <value period="9">90</value>
+            <value period="10">57</value>
+        </rainfall>
+    </rain>
+    <wind>
+        <speed>
+            <value period="11">2.0</value>
+            <value period="12">2.1</value>
+            <value period="1">2.2</value>
+            <value period="2">2.2</value>
+            <value period="3">2.1</value>
+            <value period="4">1.8</value>
+            <value period="5">1.7</value>
+            <value period="6">1.8</value>
+            <value period="7">1.8</value>
+            <value period="8">1.7</value>
+            <value period="9">1.7</value>
+            <value period="10">1.9</value>
+        </speed>
+    </wind>
+    <hail>
+        <probability>
+            <value season="0">0.05</value>
+            <value season="1">0.11</value>
+            <value season="2">0.11</value>
+            <value season="3">0.01</value>
+        </probability>
+    </hail>
+</weather>
