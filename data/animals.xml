@@ -195,13 +195,6 @@
             <output milk="0" manure="0.025" liquidManure="0.043" foodSpillage="0.06" />
             <store dailyUpkeep="0" buyPrice="1.2" baseSellPrice="150" pricePerKg="4.0" priceDropAge="180" transportPrice="100" buyIsFemale="false" buyAge="56" />
         </subType>
-        <subType fillTypeName="PIG_TYPE_RED" name="irisNagara">
-            <input straw="600" water="0.03" food="0.0165" />
-            <weight buy="18" born="1.000" />
-            <growth gainBorn="0.216" gainPeakMale="0.9675" gainPeakFemale="0.87075" daysPeak="141.5" gainLevel="0.18891" daysLevel="238" maxAge="2190" />
-            <output milk="0" manure="0.025" liquidManure="0.043" foodSpillage="0.06" />
-            <store dailyUpkeep="0" buyPrice="1.2" baseSellPrice="130" pricePerKg="3.7" priceDropAge="200" transportPrice="80" buyIsFemale="false" buyAge="56" />
-        </subType>
     </animal>
 
     <animal type="CHICKEN">

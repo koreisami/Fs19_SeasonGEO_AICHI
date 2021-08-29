@@ -20,6 +20,10 @@
             <defaultCrop name="WEED" />
             <defaultCrop name="DRYGRASS" />			
 			<defaultCrop name="GRASS"/>
+			<defaultCrop name="SUGARCANE" />
+            <defaultCrop name="COTTON"/>
+            <defaultCrop name="RYE" />
+            <defaultCrop name="TRITICALE"/>
         </defaultCrops>
 
         <growthTransitions>
@@ -243,7 +247,7 @@
         </fruitType>
         <fruitType name="RYE">
             <cultivation plantsWeed="true"/>
-            <growth germinateTemp="11"
+            <growth germinateTemp="12"
                     germinatesoilMoisture="9"
                     youngPlantMaxState="4"
                     maxFertiliseState="4"/>
@@ -258,7 +262,7 @@
         </fruitType>
         <fruitType name="TRITICALE">
             <cultivation plantsWeed="true"/>
-            <growth germinateTemp="12"
+            <growth germinateTemp="11"
                     germinatesoilMoisture="9"
                     youngPlantMaxState="4"
                     maxFertiliseState="4"/>
@@ -303,7 +307,7 @@
         </fruitType>
         <fruitType name="CANOLA">
             <cultivation plantsWeed="true"/>
-            <growth germinateTemp="13"
+            <growth germinateTemp="16"
                     germinatesoilMoisture="9"
                     youngPlantMaxState="4"
                     maxFertiliseState="4"/>
