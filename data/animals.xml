@@ -7,7 +7,7 @@
             <weight buy="545" born="0" />
             <growth gainBorn="0" gainPeakMale="0" gainPeakFemale="0" daysPeak="0" gainLevel="0" daysLevel="0" maxAge="10000" />
             <output milk="0" manure="0.04" liquidManure="0.021" foodSpillage="0" />
-            <store dailyUpkeep="0" buyPrice="0" baseSellPrice="0" pricePerKg="0" priceDropAge="0" transportPrice="300" buyIsFemale="false" buyAge="1000" />
+            <store dailyUpkeep="0" buyPrice="0" baseSellPrice="5000" pricePerKg="0" priceDropAge="0" transportPrice="300" buyIsFemale="false" buyAge="1000" />
             <livery cleanDuration="5000" income="17000" trainingDifficulty="1.5" />
         </subType>
         <subType fillTypeName="HORSE_TYPE_BROWN_WHITE" name="Paint" >

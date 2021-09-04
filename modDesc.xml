@@ -2,12 +2,16 @@
 <modDesc descVersion="51">
     <author>Isamin</author>
     <contributors>Realismus Modding</contributors>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <title>
        <en>Seasons GEO: aichi</en>
     </title>
     <description>
-       <en><![CDATA[This Mod is Season Mod about Japan, Aichi. also, this mod is adjusted rye and triticale seasonal pricing. ]]></en> 
+       <en><![CDATA[This Mod is Season Mod about Japan, Aichi. also, this mod is adjusted rye and triticale seasonal pricing.
+         Change Log: 
+        Vesion 0.0.1: First Test Release
+        Version 0.0.2: Sevral Bug Fix, Relax Germinated Temp about all crops. June and September Rainly prob. is adjusted real Japan rainy season.  
+        ]]></en> 
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>

@@ -3,7 +3,7 @@
     <annotation>Copyright (c) Realismus Modding, 2019</annotation>
 
     <startValues>
-        <soilTemp>9</soilTemp>
+        <soilTemp>11</soilTemp>
         <highAirTemp>14</highAirTemp>
         <snowDepth>0</snowDepth>
     </startValues>
@@ -46,10 +46,10 @@
             <value period="1">0.28</value>
             <value period="2">0.29</value>
             <value period="3">0.32</value>
-            <value period="4">0.38</value>
+            <value period="4">0.63</value>
             <value period="5">0.33</value>
             <value period="6">0.24</value>
-            <value period="7">0.32</value>
+            <value period="7">0.52</value>
             <value period="8">0.35</value>
             <value period="9">0.24</value>
             <value period="10">0.26</value>
@@ -88,8 +88,8 @@
     <hail>
         <probability>
             <value season="0">0.05</value>
-            <value season="1">0.11</value>
-            <value season="2">0.11</value>
+            <value season="1">0.21</value>
+            <value season="2">0.21</value>
             <value season="3">0.01</value>
         </probability>
     </hail>
