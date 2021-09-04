@@ -29,7 +29,7 @@
         <growthTransitions>
             <gt index="1"> <!--late winter to early spring-->
                 <crop name="BARLEY"  incrementByOneRange="1-3"/>
-                <crop name="RYE"  incrementByOneRange="1-3"/>
+                <crop name="RYE"  incrementByOneRange="1-2"/>
                 <crop name="TRITICALE"  incrementByOneRange="1-2"/>
                 <crop name="OAT"  incrementByOneRange="1-2"/>
                 <crop name="WHEAT"   incrementByOneRange="1-2"/>
@@ -39,7 +39,7 @@
             </gt>
             <gt index="2"> <!--early spring to mid spring-->
                 <crop name="BARLEY"  incrementByOneRange="1-4"/>
-                <crop name="RYE"  incrementByOneRange="1-4"/>
+                <crop name="RYE"  incrementByOneRange="1-3"/>
                 <crop name="TRITICALE"  incrementByOneRange="1-3"/>
                 <crop name="OAT"  incrementByOneRange="1-3"/>
                 <crop name="WHEAT"   incrementByOneRange="1-3"/>
@@ -53,7 +53,7 @@
             </gt>
             <gt index="3"> <!--mid spring to late spring-->
                 <crop name="BARLEY" incrementByOneRange="2-5"/>
-                <crop name="RYE"  incrementByOneRange="2-5"/>
+                <crop name="RYE"  incrementByOneRange="1-4"/>
                 <crop name="TRITICALE"  incrementByOneRange="1-4"/>
                 <crop name="OAT"  incrementByOneRange="1-4"/>
                 <crop name="WHEAT"   incrementByOneRange="1-4"/>
@@ -68,7 +68,7 @@
             </gt>
             <gt index="4"> <!--late spring to early summer-->
                 <crop name="BARLEY" incrementByOneRange="6" incrementByRange="3-5" incrementBy="2"/>
-                <crop name="RYE" incrementByOneRange="6" incrementByRange="3-5" incrementBy="2"/>
+                <crop name="RYE" incrementByOneRange="2-5"/>
                 <crop name="TRITICALE" incrementByOneRange="2-5"/>
                 <crop name="OAT" incrementByOneRange="2-5"/>
                 <crop name="WHEAT" incrementByOneRange="2-5"/>
@@ -84,7 +84,7 @@
             </gt>
             <gt index="5"> <!--early summer to mid summer-->
                 <crop name="BARLEY" incrementByOneRange="6" incrementByRange="4-5" incrementBy="2"/>
-                <crop name="RYE" incrementByOneRange="6" incrementByRange="4-5" incrementBy="2"/>
+                <crop name="RYE" incrementByOneRange="6" incrementByRange="3-5" incrementBy="2"/>
                 <crop name="TRITICALE" incrementByOneRange="6" incrementByRange="3-5" incrementBy="2"/>
                 <crop name="OAT" incrementByOneRange="6" incrementByRange="3-5" incrementBy="2"/>
                 <crop name="WHEAT" incrementByOneRange="6" incrementByRange="3-5" incrementBy="2"/>
@@ -99,7 +99,7 @@
             </gt>
             <gt index="6"> <!--mid summer to late summer-->
                 <crop name="BARLEY" incrementByOneRange="6" setRange="1" setTo="CUT"/>
-                <crop name="RYE" incrementByOneRange="6" incrementByRange="1" incrementBy="CUT"/>
+                <crop name="RYE" incrementByOneRange="6" incrementByRange="4-5" incrementBy="2"/>
                 <crop name="TRITICALE" incrementByOneRange="6" incrementByRange="4-5" incrementBy="2"/>
                 <crop name="OAT" incrementByOneRange="6" incrementByRange="4-5" incrementBy="2"/>
                 <crop name="WHEAT"  incrementByOneRange="6" incrementByRange="4-5" incrementBy="2"/>
@@ -116,8 +116,8 @@
                 <crop name="RYE" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
                 <crop name="TRITICALE" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
                 <crop name="OAT" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
-                <crop name="WHEAT" incrementByOneRange="6" setRange="2-MAX" setTo="WITHERED"/>
-                <crop name="CANOLA" incrementByOneRange="6" setRange="2-MAX" setTo="WITHERED"/>
+                <crop name="WHEAT" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
+                <crop name="CANOLA" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
                 <crop name="MAIZE" incrementByOneRange="1-6"/>
                 <crop name="SOYBEAN" incrementByOneRange="1-6"/>
                 <crop name="SUNFLOWER" incrementByOneRange="5-6"/>
@@ -128,12 +128,12 @@
                 <!-- <crop name="WEED" /> -->
             </gt>
             <gt index="8"> <!--early autumn to mid autumn-->
-                <crop name="BARLEY" incrementByOneRange="1" />
-                <crop name="RYE" incrementByOneRange="1" />
-                <crop name="TRITICALE" incrementByOneRange="1" />
-                <crop name="OAT" incrementByOneRange="1" />
-                <crop name="WHEAT" incrementByOneRange="1" />
-                <crop name="CANOLA" incrementByOneRange="1" />
+                <crop name="BARLEY" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
+                <crop name="RYE" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
+                <crop name="TRITICALE" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
+                <crop name="OAT" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
+                <crop name="WHEAT" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
+                <crop name="CANOLA" incrementByOneRange="1" setRange="2-MAX" setTo="WITHERED"/>
                 <crop name="MAIZE" incrementByOneRange="1-6" />
                 <crop name="SOYBEAN" incrementByOneRange="5-6" />
                 <crop name="SUNFLOWER" incrementByOneRange="6" />
@@ -169,11 +169,12 @@
                 <crop name="POTATO" setRange="1-5" setTo="CUT" incrementByOneRange="7"/>
 				<crop name="GRASS" setRange="1-CUT" setTo="2"/>
             </gt>
-            <gt index="11"> <!--early winter to mid winter-->
-                <crop name="SUGARBEET" setRange="1-5" />
+            <gt index="11"> <!--early winter to mid winter-->  
+              <crop name="BARLEY" setRange="1" setTo="CUT"/>
+              <crop name="SUGARBEET" setRange="1-5" />
                 <crop name="SUNFLOWER" setRange="1-MAX" setTo="CUT"/>
                 <crop name="POTATO" setRange="1-MAX" setTo="CUT"/>
-\            </gt>
+            </gt>
             <gt index="12"> <!--mid winter to late winter-->				
                 <crop name="SUGARBEET" setRange="1-MAX" setTo="CUT"/>
             </gt>
@@ -192,7 +193,6 @@
                 <crop name="POPLAR" setRange="1-MAX" setTo="CUT"/>
                 <crop name="OILSEEDRADISH" setRange="1-MAX" setTo="CUT"/>
                 <crop name="GRASS" setRange="1-MAX" setTo="2"/>
-                <crop name="COTTON" setRange="1-MAX" setTo="WITHERED"/>
             </gt>
         </growthTransitions>
     </growth>
@@ -231,36 +231,6 @@
         <fruitType name="BARLEY">
             <cultivation plantsWeed="true"/>
             <growth germinateTemp="12"
-                    germinatesoilMoisture="5"
-                    youngPlantMaxState="4"
-                    maxFertiliseState="4"/>
-            <options    seedDroughtResistanceFactor="1"
-                        youngPlantDroughtResistanceFactor="2"
-                        maturePlantDroughtResistanceFactor="3"
-                        seedFrostResistanceFactor="3"
-                        youngPlantFrostResistanceFactor="4"
-                        maturePlantFrostResistanceFactor="1"/>
-            <rotation category="CEREAL"
-                      returnPeriod="2" />
-        </fruitType>
-        <fruitType name="RYE">
-            <cultivation plantsWeed="true"/>
-            <growth germinateTemp="12"
-                    germinatesoilMoisture="5"
-                    youngPlantMaxState="4"
-                    maxFertiliseState="4"/>
-            <options    seedDroughtResistanceFactor="1"
-                        youngPlantDroughtResistanceFactor="2"
-                        maturePlantDroughtResistanceFactor="3"
-                        seedFrostResistanceFactor="3"
-                        youngPlantFrostResistanceFactor="4"
-                        maturePlantFrostResistanceFactor="1"/>
-            <rotation category="CEREAL"
-                      returnPeriod="2" />
-        </fruitType>
-        <fruitType name="TRITICALE">
-            <cultivation plantsWeed="true"/>
-            <growth germinateTemp="10"
                     germinatesoilMoisture="5"
                     youngPlantMaxState="4"
                     maxFertiliseState="4"/>
@@ -436,6 +406,36 @@
                         maturePlantFrostResistanceFactor="1"
                         weedWitherSoilTemp="0"
                         weedMatureSoilTemp="12"/>
+        </fruitType>
+        <fruitType name="RYE">
+            <cultivation plantsWeed="true"/>
+            <growth germinateTemp="12"
+                    germinatesoilMoisture="5"
+                    youngPlantMaxState="4"
+                    maxFertiliseState="4"/>
+            <options    seedDroughtResistanceFactor="1"
+                        youngPlantDroughtResistanceFactor="2"
+                        maturePlantDroughtResistanceFactor="3"
+                        seedFrostResistanceFactor="3"
+                        youngPlantFrostResistanceFactor="4"
+                        maturePlantFrostResistanceFactor="1"/>
+            <rotation category="CEREAL"
+                      returnPeriod="2" />
+        </fruitType>
+        <fruitType name="TRITICALE">
+            <cultivation plantsWeed="true"/>
+            <growth germinateTemp="10"
+                    germinatesoilMoisture="5"
+                    youngPlantMaxState="4"
+                    maxFertiliseState="4"/>
+            <options    seedDroughtResistanceFactor="1"
+                        youngPlantDroughtResistanceFactor="2"
+                        maturePlantDroughtResistanceFactor="3"
+                        seedFrostResistanceFactor="3"
+                        youngPlantFrostResistanceFactor="4"
+                        maturePlantFrostResistanceFactor="1"/>
+            <rotation category="CEREAL"
+                      returnPeriod="2" />
         </fruitType>
     </fruitTypes>
    <cropRotation>
