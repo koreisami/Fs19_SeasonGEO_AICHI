@@ -275,7 +275,7 @@
         </fruitType>
         <fruitType name="CANOLA">
             <cultivation plantsWeed="true"/>
-            <growth germinateTemp="18"
+            <growth germinateTemp="12"
                     germinatesoilMoisture="5"
                     youngPlantMaxState="4"
                     maxFertiliseState="4"/>
